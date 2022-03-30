@@ -19,12 +19,14 @@ export const contact = {
     },
     {
       link: "https://github.com/Naramatsu",
+      padding: "2px",
       img:
         "https://res.cloudinary.com/dxg9gszax/image/upload/v1645826028/kromac-ui/GitHub-Simbolo_jdnbhx.png",
       alt: "github"
     },
     {
       link: "https://wa.me/573178559796",
+      padding: "3px",
       img:
         "https://res.cloudinary.com/dxg9gszax/image/upload/v1645827996/kromac-ui/wap_icon_lxyuwj.png",
       alt: "whatsapp"
