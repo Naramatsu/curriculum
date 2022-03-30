@@ -17,8 +17,8 @@ const Contact = () =>
           <ul>
             {contact.media.map((social, index) =>
               <li key={index}>
-                <a href={social.link} rel="" target="_blank">
-                  <img src={social.img} alt={social.alt} />
+                <a href={social.link} rel="noreferrer" target="_blank">
+                  <img src={social.img} alt={social.alt} style={{padding: social.padding}} />
                 </a>
               </li>
             )}
