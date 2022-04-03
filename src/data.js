@@ -1,6 +1,6 @@
 export const contact = {
   img:
-    "https://res.cloudinary.com/dxg9gszax/image/upload/v1648647576/personal/IMG_20220320_180416_ybkc7a.jpg",
+    "https://res.cloudinary.com/dxg9gszax/image/upload/v1649011340/personal/IMG_20220321_140813_aqgz0w.jpg",
   alt: "Jonathan's foto",
   name: "Jonathan C. Narvaez M.",
   path: "Frontend Developer",
