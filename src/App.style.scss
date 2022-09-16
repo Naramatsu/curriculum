@@ -10,7 +10,7 @@ $colorTemplate: #ff3387;
     .contact {
       width: 30%;
       height: 100%;
-      box-shadow: 0 0 15px 5px rgba(0, 0, 0, .5);
+      box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
 
       .card {
         width: 100%;
@@ -43,7 +43,7 @@ $colorTemplate: #ff3387;
             border-radius: 50%;
 
             img {
-              margin: .25em;
+              margin: 0.25em;
               @extend .img-template;
             }
           }
@@ -62,7 +62,7 @@ $colorTemplate: #ff3387;
         position: relative;
         width: 100%;
         height: auto;
-        padding: .5em;
+        padding: 0.5em;
         padding-bottom: 0;
 
         .title {
@@ -106,16 +106,16 @@ $colorTemplate: #ff3387;
 
           aside {
             width: 50%;
-            padding: 1.5em .5em;
+            padding: 1.5em 0.5em;
 
             h5 {
-              margin-bottom: .2em;
+              margin-bottom: 0.2em;
             }
 
             .personal-info {
               display: flex;
               justify-content: space-between;
-              margin-bottom: .5em;
+              margin-bottom: 0.5em;
 
               label,
               p {
@@ -132,18 +132,37 @@ $colorTemplate: #ff3387;
                 height: 50px;
                 border: solid 2px $colorTemplate;
                 position: relative;
-                padding: .25em;
+                padding: 0.25em;
                 border-radius: 50%;
                 background: #fff;
               }
             }
           }
 
+          &.skills {
+            display: block;
+            overflow: hidden;
+          }
+
           .skills-list {
-            display: flex;
-            flex-wrap: wrap;
+            margin-top: 1em;
+            display: grid;
             gap: 15px;
-            align-items: center;
+            align-items: start;
+            grid-template-columns: 1fr 1fr 1fr;
+
+            section {
+              text-align: center;
+              
+              ul {
+                list-style: none;
+                width: 100%;
+
+                li::marker {
+                  color: $colorTemplate;
+                }
+              }
+            }
 
             .portfolio {
               margin: 2em 1em;
@@ -154,8 +173,8 @@ $colorTemplate: #ff3387;
               flex-wrap: nowrap;
               flex-direction: column;
               border: solid 3px #fff;
-              border-radius: .5em;
-              box-shadow: 0 0 15px 5px rgba(0, 0, 0, .5);
+              border-radius: 0.5em;
+              box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.5);
 
               a img {
                 padding: 1em;
@@ -167,6 +186,10 @@ $colorTemplate: #ff3387;
 
           & aside:nth-child(2n + 0) {
             border-left: solid 1px #abb2b9;
+          }
+
+          & aside:nth-last-child(1) {
+            border-left: none;
           }
 
           &.services-list {
@@ -216,7 +239,7 @@ ul.ul-techs-list {
   li {
     height: 32px;
     position: relative;
-    margin: .5em;
+    margin: 0.5em;
     width: 100%;
 
     p {
@@ -235,7 +258,7 @@ ul.ul-techs-list {
   background: $colorTemplate;
   color: #fff;
   font-weight: bold;
-  padding: 0 .5em;
+  padding: 0 0.5em;
 }
 
 @media (max-width: 1024px) {
@@ -257,7 +280,7 @@ ul.ul-techs-list {
 
 @media (max-width: 990px) {
   ul.ul-techs-list li {
-    transform: scale(.7);
+    transform: scale(0.7);
   }
 }
 

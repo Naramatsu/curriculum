@@ -1,37 +1,32 @@
 export const contact = {
-  img:
-    "https://res.cloudinary.com/dxg9gszax/image/upload/v1649011340/personal/IMG_20220321_140813_aqgz0w.jpg",
+  img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1649011340/personal/IMG_20220321_140813_aqgz0w.jpg',
   alt: "Jonathan's foto",
-  name: "Jonathan C. Narvaez M.",
-  path: "Frontend Developer",
+  name: 'Jonathan C. Narvaez M.',
+  path: 'Frontend Developer',
   media: [
     {
-      link: "https://www.facebook.com/jcnm19/",
-      img:
-        "https://res.cloudinary.com/dxg9gszax/image/upload/v1634079073/kromac-ui/facebook_eoffyk.svg",
-      alt: "facebook"
+      link: 'https://www.facebook.com/jcnm19/',
+      img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1634079073/kromac-ui/facebook_eoffyk.svg',
+      alt: 'facebook',
     },
     {
-      link: "https://www.linkedin.com/in/jonathan-narváez-martínez-338102233/",
-      img:
-        "https://res.cloudinary.com/dxg9gszax/image/upload/v1634079072/kromac-ui/linkedin_nqwh1p.svg",
-      alt: "linkedin"
+      link: 'https://www.linkedin.com/in/jonathan-narváez-martínez-338102233/',
+      img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1634079072/kromac-ui/linkedin_nqwh1p.svg',
+      alt: 'linkedin',
     },
     {
-      link: "https://github.com/Naramatsu",
-      padding: "2px",
-      img:
-        "https://res.cloudinary.com/dxg9gszax/image/upload/v1645826028/kromac-ui/GitHub-Simbolo_jdnbhx.png",
-      alt: "github"
+      link: 'https://github.com/Naramatsu',
+      padding: '2px',
+      img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1645826028/kromac-ui/GitHub-Simbolo_jdnbhx.png',
+      alt: 'github',
     },
     {
-      link: "https://wa.me/573178559796",
-      padding: "3px",
-      img:
-        "https://res.cloudinary.com/dxg9gszax/image/upload/v1645827996/kromac-ui/wap_icon_lxyuwj.png",
-      alt: "whatsapp"
-    }
-  ]
+      link: 'https://wa.me/573178559796',
+      padding: '3px',
+      img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1645827996/kromac-ui/wap_icon_lxyuwj.png',
+      alt: 'whatsapp',
+    },
+  ],
 };
 
 export const about = {
@@ -41,88 +36,127 @@ export const about = {
                 I am ready to apply the knowledge learned and willing to
                 continue with the intellectual formation. I adapt easily to
                 different environments.`,
-  "C.c": "1.050.970.596",
+  'C.c': '1.050.970.596',
   Age: 25,
-  Address: "Turbaco - Bolivar, Col",
-  Phone: ["(+57) 317 8559 796", "(+57) 313 6482 103"]
+  Address: 'Turbaco - Bolivar, Col',
+  Phone: ['(+57) 317 8559 796', '(+57) 313 6482 103'],
 };
 
 export const skills = [
   {
-    name: "React",
-    percentage: 80
+    name: 'React',
+    percentage: 80,
   },
   {
-    name: "HTML 5",
-    percentage: 90
+    name: 'HTML 5',
+    percentage: 90,
   },
   {
-    name: "SCSS",
-    percentage: 70
+    name: 'SCSS',
+    percentage: 70,
   },
   {
-    name: "CSS3",
-    percentage: 85
+    name: 'CSS3',
+    percentage: 85,
   },
   {
-    name: "JavaScript",
-    percentage: 70
-  }
+    name: 'JavaScript',
+    percentage: 70,
+  },
 ];
+
+export const skillsList = {
+  Strong: [
+    'React',
+    'JavaScript',
+    'HTML5',
+    'CSS3',
+    'SASS',
+    'React-hooks',
+    'React-context',
+  ],
+  Medium: [
+    'React-native',
+    'UI/UX',
+    'Figma',
+    'Unit Testing',
+    'Scrum',
+    'Github',
+    'Api rest',
+    'Node JS',
+    'MongoDB',
+  ],
+  Soft: ['AWS', 'MySql', 'Redis'],
+};
 
 export const experiences = [
   {
-    company: "VISO Infinity Travels",
-    start: "2018",
-    end: "2019",
+    company: 'VISO Infinity Travels',
+    start: '2018',
+    end: '2019',
     description: `Web and desktop development, customer service at development
                   level.`,
-    ulWidth: "100%",
-    techs: ["HTML5", "CSS3", "JavaScript", "My SQL"]
+    ulWidth: '100%',
+    techs: ['HTML5', 'CSS3', 'JavaScript', 'My SQL'],
   },
   {
-    company: "Zeus Tecnología SA Cartagena",
-    start: "2019",
-    end: "2020",
+    company: 'Zeus Tecnología SA Cartagena',
+    start: '2019',
+    end: '2020',
     description: `Development of web and desktop applications, customer service
                   at development level in real time.`,
     techs: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "SQL Server",
-      "C#",
-      "ASP .NET",
-      "Visual Basic",
-      "Fox Pro"
-    ]
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'SQL Server',
+      'C#',
+      'ASP .NET',
+      'Visual Basic',
+      'Fox Pro',
+    ],
   },
   {
-    company: "CondorLabs",
-    start: "2020",
-    end: "Currently",
-    width: "100%",
+    company: 'CondorLabs',
+    start: '2020',
+    end: '2022',
+    width: '100%',
     description: `Application development and maintenance.`,
     techs: [
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "ReactJs",
-      "SCSS",
-      "MongoDB",
-      "Oracle",
-      "NodeJs",
-      "AWS",
-      "Redis"
-    ]
-  }
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'ReactJs',
+      'SCSS',
+      'MongoDB',
+      'Oracle',
+      'NodeJs',
+      'AWS',
+      'Redis',
+    ],
+  },
+  {
+    company: 'EPAM',
+    start: '2022',
+    end: '2022',
+    width: '100%',
+    description: `Software Engineer.`,
+    techs: [
+      'HTML5',
+      'CSS3',
+      'JavaScript',
+      'ReactJs',
+      'SCSS',
+      'React Native',
+      'Figma',
+    ],
+  },
 ];
 
 export const projects = [
   {
-    link: "https://www.kromac-ui.com",
-    img:
-      "https://res.cloudinary.com/dxg9gszax/image/upload/v1634697765/kromac-ui/kromac-logov2_cov1m7.png",
-    name: "Kromac-UI"
-  }
+    link: 'https://www.kromac-ui.com',
+    img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1634697765/kromac-ui/kromac-logov2_cov1m7.png',
+    name: 'Kromac-UI',
+  },
 ];

@@ -1,27 +1,33 @@
-import React from "react";
-import { skills } from "../../data";
-import Card from "kromac-ui/dist/Card";
+import React from 'react';
+import { skillsList } from '../../data';
+// import Card from 'kromac-ui/dist/Card';
 
-const Skills = () =>
+const Skills = () => (
   <section className="content">
     <section className="title">
       <h2>
         <b>Skills</b>
       </h2>
     </section>
-    <section className="description">
+    <section className="description skills">
       <section className="skills-list">
-        {skills.map((skill, index) =>
-          <Card
-            key={index}
-            cardType="percentage"
-            title={skill.name}
-            progressColor="#ff3387"
-            progress={skill.percentage}
-          />
-        )}
+        {Object.keys(skillsList).map(k => (
+          <section>
+            <p>
+              <b>{k}</b>
+            </p>
+            <ul className="ul-techs-list">
+              {skillsList[k].map((skill, index) => (
+                <li key={index}>
+                  <p>{skill}</p>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
       </section>
     </section>
-  </section>;
+  </section>
+);
 
 export default Skills;
