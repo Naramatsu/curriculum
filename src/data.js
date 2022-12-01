@@ -159,4 +159,9 @@ export const projects = [
     img: 'https://res.cloudinary.com/dxg9gszax/image/upload/v1634697765/kromac-ui/kromac-logov2_cov1m7.png',
     name: 'Kromac-UI',
   },
+  {
+    link: 'https://challenge-jonathan-narvaez-mk4f68v3w-kromac-ui.vercel.app/',
+    img: 'preview_Challenge.png',
+    name: 'Trip calculator',
+  },
 ];

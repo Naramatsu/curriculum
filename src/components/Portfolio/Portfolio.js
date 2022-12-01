@@ -1,7 +1,7 @@
-import React from "react";
-import { projects } from "../../data";
+import React from 'react';
+import { projects } from '../../data';
 
-const Portfolio = () =>
+const Portfolio = () => (
   <section className="content">
     <section className="title">
       <h2>
@@ -10,18 +10,17 @@ const Portfolio = () =>
     </section>
     <section className="description">
       <section className="skills-list">
-        {projects.map((project, index) =>
+        {projects.map((project, index) => (
           <section key={index} className="portfolio">
-            <a href={project.link} rel="" target="_blank">
+            <a href={project.link} rel="noreferrer" target="_blank">
               <img src={project.img} alt={project.name} />
             </a>
-            <p>
-              {project.name}
-            </p>
+            <p>{project.name}</p>
           </section>
-        )}
+        ))}
       </section>
     </section>
-  </section>;
+  </section>
+);
 
 export default Portfolio;

@@ -1,14 +1,14 @@
-import React from "react";
-import Contact from "./components/Contact";
-import AboutMe from "./components/AboutMe";
-import Skills from "./components/Skills";
-import Experience from "./components/Experience";
-import Portfolio from "./components/Portfolio";
+import React from 'react';
+import Contact from './components/Contact';
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import Experience from './components/Experience';
+import Portfolio from './components/Portfolio';
 
-import "kromac-ui/dist/index.css";
-import "./css/App.style.css";
+import 'kromac-ui/src/css/style.css';
+import './css/App.style.css';
 
-const App = () =>
+const App = () => (
   <div className="App">
     <section className="main">
       <Contact />
@@ -19,6 +19,7 @@ const App = () =>
         <Portfolio />
       </section>
     </section>
-  </div>;
+  </div>
+);
 
 export default App;
